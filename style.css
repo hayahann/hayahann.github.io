@@ -2,6 +2,9 @@ h1 {
     color: red;
     font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
+body {
+    background-image: url(https://lh3.googleusercontent.com/HLu0vN5cHiU5jRtbHMursowNYDMFt4qHUO6Np83djBKyqN1l5RBZooa41Yss1oTtnKE64lzlw4hcEMf3kEVWFosgV6DkRKlK-w5SyxWoai6w98w71Pk-c08npDQPRxYZ0y8eofFMbA=w2400);
+}
 #bold {
     font-weight: bold;
     font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
