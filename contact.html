@@ -9,23 +9,29 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-      <div>
-          <a href ="index.html" class="disabled"> home</a>
+      <div class="navbar">
+          <a href ="index.html"> Home</a>
           <a href="about.html">About Me</a>
           <a href="experience.html">Experience</a>
-          <a href="a">Contact</a>
+          <a href="a" class="disabled">Contact</a>
       </div>
 
-      <div>
+    <h1 class="header">Contact Me</h1>
 
-        <form>
-            <label>Name: </label>><input type="text" id="name" name="name">
-            <label>Email: </label><input type="text" id="email" name="email">
-            <label>Message: </label><textarea id="message" name="message">
-            <input type="submit">
-        </form>
-
+    <form class="contactForm">
+      <div class="wrapper">
+      <label>Name: </label>><input class="inputField" type="text" id="name" name="name">
       </div>
+      <div class="wrapper">
+      <label>Email: </label><input class="inputField" type="text" id="email" name="email">
+      </div>
+      <div class="wrapper">
+      <label>Message: </label><textarea class="inputField" id="message" name="message">
+      </div>
+      <div class="wrapper">      
+      <input type="submit">
+      </div>
+      </form>
     <script src="index.js"></script>
   </body>
 </html>
