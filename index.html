@@ -4,10 +4,12 @@
     margin-top: 20px;
     text-align: left;
   }
-  #BOX{
+  #box-inner{
     background-image: url("https://drive.google.com/thumbnail?id=1ArFDn1jn3FbEsOMOCAQreY3S85RxaaJ8");
-    background-size: 70% 300px;   
+    background-size: 70% 350px;   
     background-repeat: no-repeat;
+  }
+  #BOX{
     opacity:1;
     width: 100%;
     height: 100%;
@@ -45,15 +47,17 @@
       <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div class="navbar">
+      <div id="BOX">
+          <div class="navbar">
           <a href ="a" class="disabled">Home</a>
           <a href="about.html">About Me</a>
           <a href="experience.html">Experience</a>
           <a href="contact.html">Contact</a>
+          <a href="test.html"></a>a>
         </div>
-      <div id="BOX">
-        <div class="header">
-            <h1>Hannah Hayashi</h1>
+        <div>
+        <div id="box-inner">
+            <h1 class="header">Hannah Hayashi</h1>
             <p class="description"></p>
         </div>
       </div>
